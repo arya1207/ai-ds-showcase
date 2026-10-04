@@ -5,7 +5,7 @@ Three small projects that show an end-to-end workflow: retrieval-augmented gener
 | Project | What it shows | Tools |
 |---|---|---|
 | [01 RAG metric assistant](01_rag_metric_assistant) | Answers metric questions from approved definitions only. Retrieval finds the right definition in the top 3 for 15 of 15 test questions, and I confirmed the model choice on held-out questions | Python, sentence-transformers, FAISS, LLM API, pytest |
-| [02 Credit default model](02_credit_default_model) | Baseline vs tree models, cross-validation, metric choice, and threshold tuning | pandas, scikit-learn |
+| [02 Credit default model](02_credit_default_model) | Predicts credit card default (22% base rate). Gradient boosting reached 0.78 AUC vs 0.73 for a logistic baseline, with threshold tuning for a realistic outreach goal | pandas, scikit-learn |
 | [03 Customer segmentation](03_customer_segmentation) | Unsupervised segmentation with K-means, PCA, and anomaly detection | pandas, scikit-learn |
 
 ## Setup
@@ -20,4 +20,4 @@ Each project folder has its own README with run instructions and results.
 
 ## Notes
 - API keys live in a local `.env` file that is never committed. See `.env.example`.
-- The credit card dataset is not stored in this repo. Each README explains where to download it.
+- The credit card dataset is not stored in this repo. Download it from [UCI](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients); the project README explains the one-step cleanup.
