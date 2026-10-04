@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+jupyter
+ipykernel
+sentence-transformers
+faiss-cpu
+python-dotenv
+anthropic
+openai
+pytest
