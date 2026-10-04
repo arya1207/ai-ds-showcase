@@ -1,0 +1,7 @@
+[
+  {"q": "What percentage of audited calls followed every required regulatory step?", "expected_id": "m24"},
+  {"q": "How many seconds does a caller usually wait in line before being answered?", "expected_id": "m10"},
+  {"q": "What share of planned one-on-one coaching meetings did a leader actually finish?", "expected_id": "m22"},
+  {"q": "How often do customers come back about the same problem within a week?", "expected_id": "m14"},
+  {"q": "How much paid time are staff unavailable because of breaks, training, and time off?", "expected_id": "m16"}
+]
