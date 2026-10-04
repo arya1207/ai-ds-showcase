@@ -10,7 +10,7 @@ DATA_DIR = Path(__file__).parent / "data"
 @lru_cache(maxsize=1)
 def get_model() -> SentenceTransformer:
     """Load the embedding model once and reuse it."""
-    return SentenceTransformer("all-MiniLM-L6-v2")
+    return SentenceTransformer("all-mpnet-base-v2")
 
 def load_docs(path: Path = DATA_DIR / "definitions.json") -> list[dict]:
     with open(path, encoding="utf-8") as f:
