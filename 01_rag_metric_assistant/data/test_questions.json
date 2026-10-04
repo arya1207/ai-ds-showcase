@@ -1,0 +1,17 @@
+[
+  {"q": "How long does a typical call take from start to finish, including holds and wrap-up?", "expected_id": "m01"},
+  {"q": "What percent of customers get their problem solved without having to call back?", "expected_id": "m02"},
+  {"q": "How happy are customers right after an interaction?", "expected_id": "m04"},
+  {"q": "Are employees working during the hours they were planned to work?", "expected_id": "m06"},
+  {"q": "What share of logged-in time is spent actually helping customers instead of waiting?", "expected_id": "m07"},
+  {"q": "How many callers hang up before anyone picks up?", "expected_id": "m09"},
+  {"q": "What fraction of calls are answered within the target number of seconds?", "expected_id": "m08"},
+  {"q": "How is an employee ranked into ten equal performance groups against peers?", "expected_id": "m20"},
+  {"q": "How far above or below the team mean is one person's result?", "expected_id": "m21"},
+  {"q": "How many people leave a team over a year relative to headcount?", "expected_id": "m18"},
+  {"q": "What tells me how out of date the numbers on a dashboard are?", "expected_id": "m29"},
+  {"q": "How hard did customers have to work to get their issue fixed?", "expected_id": "m23"},
+  {"q": "What is the share of contacts passed up to a supervisor for a decision?", "expected_id": "m15"},
+  {"q": "How many weeks does a new hire need to reach target performance?", "expected_id": "m28"},
+  {"q": "What is the total service cost spread across all customer interactions?", "expected_id": "m25"}
+]
