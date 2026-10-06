@@ -10,3 +10,5 @@ python-dotenv
 anthropic
 openai
 pytest
+fastapi
+uvicorn
